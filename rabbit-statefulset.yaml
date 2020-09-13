@@ -89,7 +89,7 @@ kind: Service
 metadata:
   name: rabbitmq
 spec:
-  clusterIP: None
+  type: NodePort
   ports:
   - port: 4369
     targetPort: 4369
